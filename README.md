@@ -2,10 +2,10 @@
 
 This blood bank management service is developed as a web-based system. It consists of four main features:
 
-1. Home
-2. Donor Login
-3. Blood Donation Camp Search
-4. Blood Bank Search
+I.   Home
+II.  Donor Login
+III. Blood Donation Camp Search
+IV.  Blood Bank Search
 
 1. Home:
 This page serves as the home page, providing general knowledge about which blood group can donate to whom and who can receive from whom.
