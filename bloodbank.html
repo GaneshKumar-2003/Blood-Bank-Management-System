@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #e74c3c;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 36px;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        
+.blood-image {
+    width: 40%;
+    max-width: 100%;
+    height: auto; 
+    border-radius: 10px; 
+    margin: 0 auto; 
+    padding: 5px;
+}
+
+       .middle{
+            text-align:center;
+}
+        section h2 {
+            font-size: 24px;
+            color: #e74c3c;
+            margin-bottom: 10px;
+        }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p:first-child {
+    font-size: 14px;
+    margin: 0;
+}
+
+footer p:last-child {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+        section img {
+            display: block;
+            margin: 0 auto; 
+            border-radius: 20px; 
+            max-width: 100%; 
+            height: auto; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Phoenix Blood Bank Web Management Services</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://localhost/donorlogin.php">Donor Login</a></li>
+            <li><a href="https://localhost/bloodavail.php">Blood Bank Availability Search</a></li>
+            <li><a href="https://localhost/campsearch.php">Blood Donation Camp</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="donor-login">
+            <h2 class="middle">Save Lives</h2>
+            <!-- Update the image source with a valid URL -->
+            <img src="https://localhost/picture/blood1.png" alt="Blood types">
+            <ul>
+              <ul>
+        <li>
+            <h2>Blood Group A</h2>
+            <p>
+                Blood group A individuals have A antigens on the surface of their red blood cells and B antibodies in their plasma.
+                They can receive blood from A and O blood groups and can donate to A and AB blood groups.
+            </p>
+        </li>
+        <li>
+            <h2>Blood Group B</h2>
+            <p>
+                Blood group B individuals have B antigens on the surface of their red blood cells and A antibodies in their plasma.
+                They can receive blood from B and O blood groups and can donate to B and AB blood groups.
+            </p>
+        </li>
+        <li>
+            <h2>Blood Group AB</h2>
+            <p>
+                Blood group AB individuals have both A and B antigens on the surface of their red blood cells and no A or B antibodies in their plasma.
+                They can receive blood from A, B, AB, and O blood groups and are known as universal recipients.
+            </p>
+        </li>
+        <li>
+            <h2>Blood Group O</h2>
+            <p>
+                Blood group O individuals have no A or B antigens on the surface of their red blood cells and both A and B antibodies in their plasma.
+                They can receive blood only from O blood group and are known as universal donors.
+            </p>
+        </li>
+    </ul>
+        </section>
+        <section>
+       <img src="https://localhost/picture/blood2.jpg" alt="donate blood" class="blood-image"></img>
+     
+</section>
+    </div>
+</body>
+<footer>
+        <p>&copy; 2023 Blood Bank. All rights reserved.</p>
+        <p>Contact Us: contact@bloodbank.com</p>
+    </footer>
+</html>
